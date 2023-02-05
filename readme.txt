@@ -9,3 +9,6 @@ python 仮想環境構築
 
 3. パッケージのインストール
     pip install -r requirements.txt
+
+4. 仮想環境の無効化
+    deactivate
