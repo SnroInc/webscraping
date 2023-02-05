@@ -1,0 +1,27 @@
+# https://note.nkmk.me/python-pip-install-requirements/
+
+# ■ pipの一括インストールオプション: -r requirements.txt
+#     以下のコマンドで設定ファイルrequirements.txtに従ってパッケージが一括でインストールされる。
+#     $ pip install -r requirements.txt
+
+# ■ 設定ファイルrequirements.txtの例は以下の通り。
+
+#     pip install - Example Requirements File — pip 9.0.1 documentation
+#     ###### Requirements without Version Specifiers ######`
+#     nose
+#     nose-cov
+#     beautifulsoup4
+
+#     ###### Requirements with Version Specifiers ######`
+#     docopt == 0.6.1             # Version Matching. Must be version 0.6.1
+#     keyring >= 4.1.1            # Minimum version 4.1.1
+#     coverage != 3.5             # Version Exclusion. Anything except version 3.5
+#     Mopidy-Dirble ~= 1.1        # Compatible release. Same as >= 1.1, == 1.*
+#     Pythonのコードと同じく#以降はコメントとなる。
+
+#     ==や>, >=, <, <=などでバージョンを指定できる。バージョン指定を省略すると最新版がインストールされる。
+
+#     カンマ,で区切ると二つの条件をANDで指定できる。
+
+
+tweepy==4.12.1
